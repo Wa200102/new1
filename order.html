@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Medicare Pharmacy</title>
+    <link rel="stylesheet" href="order.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Medicare Pharmacy</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="product.html">Products</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="order-container">
+        <h2>Product Order Page</h2>
+        <form id="orderForm">
+          <div class="form-group">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="address">Shipping Address:</label>
+            <textarea id="address" placeholder="Enter your address" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="payment">Payment Method:</label>
+            <select id="payment" required>
+              <option value="" disabled selected>Select a payment method</option>
+              <option value="creditCard">Credit Card</option>
+              <option value="debitCard">Debit Card</option>
+              <option value="KoKo Pay">KoKo Pay</option>
+            </select>
+          </div>
+          <button type="button" id="payNow">Pay Now</button>
+        </form>
+        <p id="confirmationMessage" class="hidden">Your order will be delivered within 2 days. Thank You for choosing Medicare Pharmacy!</p>
+      </div>
+      <script src="order.js"></script>
+      <footer>
+        <p>&copy; 2024 Medicare Pharmacy. All rights reserved.</p>
+        <p>Follow us on: 
+          <a href="#">Facebook</a> | 
+          <a href="#">Twitter</a> | 
+          <a href="#">Instagram</a>
+      </p>
+    </footer>
+    </body>
+    </html>

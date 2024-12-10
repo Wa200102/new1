@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Medicare Pharmacy</title>
+    <link rel="stylesheet" href="product.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Medicare Pharmacy</h1>
+            <div class="search-container">
+              <form action="/search" method="GET">
+                  <input 
+                      type="text" 
+                      name="q" 
+                      placeholder="Search for products, categories, or health tips..." 
+                      required 
+                      class="search-input"
+                  >
+                  <button type="submit" class="search-button">
+                      <img 
+                          src="https://cdn-icons-png.flaticon.com/512/751/751463.png" 
+                          alt="Search Icon" 
+                          class="search-icon"
+                      >
+                  </button>
+              </form>
+          </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="contact.html">Products</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  </body>
+
+  <main>
+    <section id="products">
+        <!-- Product Categories -->
+        <div class="category" id="category-1">
+            <h2>Analgesics</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="images/a/1.jpeg" alt="Iodex">
+                    <h3>Iodex</h3>
+                    <p>Price: $120</p>
+                    <input type="number" class="quantity" min="1" value="1">
+                    <button class="add-to-cart" data-price="120">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                  <img src="images/a/2.jpeg" alt="Tylenol">
+                  <h3>Tylenol</h3>
+                  <p>Price: $150</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="150">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                  <img src="images/a/3.png" alt="Voltarol">
+                  <h3>Voltarol</h3>
+                  <p>Price: $80</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="80">Add to Cart</button>
+                </div>
+                
+                <div class="product">
+                  <img src="images/a/4.jpeg" alt="PainQuit">
+                  <h3>PainQuit</h3>
+                  <p>Price: $210</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="210">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                  <img src="images/a/5.png" alt="Pain Relief">
+                  <h3>Pain Relief</h3>
+                  <p>Price: $235</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="235">Add to Cart</button>
+                </div>
+
+                <div class="product">
+                  <img src="images/a/6.jpeg" alt="Alevex">
+                  <h3>Alevex</h3>
+                  <p>Price: $180</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="180">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="category" id="category-1">
+          <h2>Antibiotics</h2>
+          <div class="product-list">
+              <div class="product">
+                  <img src="images/b/1.jpeg" alt="Augmentin">
+                  <h3>Augmentin</h3>
+                  <p>Price: $225</p>
+                  <input type="number" class="quantity" min="1" value="1">
+                  <button class="add-to-cart" data-price="225">Add to Cart</button>
+              </div>
+              
+              <div class="product">
+                <img src="images/b/2.jpeg" alt="Flagyl">
+                <h3>Flagyl</h3>
+                <p>Price: $550</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="550">Add to Cart</button>
+              </div>
+
+              <div class="product">
+                <img src="images/b/3.jpeg" alt="Amoxil">
+                <h3>Amoxil</h3>
+                <p>Price: $380</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="380">Add to Cart</button>
+              </div>
+              
+              <div class="product">
+                <img src="images/b/4.jpeg" alt="Cipro">
+                <h3>Cipro</h3>
+                <p>Price: $110</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="110">Add to Cart</button>
+              </div>
+
+              <div class="product">
+                <img src="images/b/5.jpeg" alt="Keflex">
+                <h3>Keflex</h3>
+                <p>Price: $490</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="490">Add to Cart</button>
+              </div>
+
+              <div class="product">
+                <img src="images/b/6.jpeg" alt="Bactrim">
+                <h3>Bactrim</h3>
+                <p>Price: $500</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="500">Add to Cart</button>
+              </div>
+          </div>
+      </div>
+
+      <div class="category" id="category-1">
+        <h2>Antidepressants</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="images/c/1.jpg" alt="Fluoxetine">
+                <h3>Fluoxetine</h3>
+                <p>Price: $100</p>
+                <input type="number" class="quantity" min="1" value="1">
+                <button class="add-to-cart" data-price="100">Add to Cart</button>
+            </div>
+            
+            <div class="product">
+              <img src="images/c/2.jpg" alt="Sertraline">
+              <h3>Sertraline</h3>
+              <p>Price: $60</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="60">Add to Cart</button>
+            </div>
+
+            <div class="product">
+              <img src="images/c/3.jpg" alt="Citalopram">
+              <h3>Citalopram</h3>
+              <p>Price: $125</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="125">Add to Cart</button>
+            </div>
+            
+            <div class="product">
+              <img src="images/c/4.jpg" alt="Escitalopram">
+              <h3>Escitalopram</h3>
+              <p>Price: $160</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="160">Add to Cart</button>
+            </div>
+
+            <div class="product">
+              <img src="images/c/5.jpg" alt="Paroxetine">
+              <h3>Paroxetine</h3>
+              <p>Price: $240</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="240">Add to Cart</button>
+            </div>
+
+            <div class="product">
+              <img src="images/c/6.jpg" alt="Venlafaxine">
+              <h3>Venlafaxine</h3>
+              <p>Price: $460</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="460">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="category" id="category-1">
+      <h2>Antihistamines</h2>
+      <div class="product-list">
+          <div class="product">
+              <img src="images/d/1.jpg" alt="Diphenhydramine">
+              <h3>Diphenhydramine</h3>
+              <p>Price: $500</p>
+              <input type="number" class="quantity" min="1" value="1">
+              <button class="add-to-cart" data-price="500">Add to Cart</button>
+          </div>
+          
+          <div class="product">
+            <img src="images/d/2.jpg" alt="Chlorpheniramine">
+            <h3>Chlorpheniramine</h3>
+            <p>Price: $540</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="540">Add to Cart</button>
+          </div>
+
+          <div class="product">
+            <img src="images/d/3.jpg" alt="Hydroxyzine">
+            <h3>Hydroxyzine</h3>
+            <p>Price: $590</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="590">Add to Cart</button>
+          </div>
+          
+          <div class="product">
+            <img src="images/d/4.jpg" alt="Promethazine">
+            <h3>Promethazine</h3>
+            <p>Price: $630</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="630">Add to Cart</button>
+          </div>
+
+          <div class="product">
+            <img src="images/d/5.jpg" alt="Meclizine">
+            <h3>Meclizine</h3>
+            <p>Price: $650</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="650">Add to Cart</button>
+          </div>
+
+          <div class="product">
+            <img src="images/d/6.jpg" alt="Loratadine">
+            <h3>Loratadine</h3>
+            <p>Price: $700</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="700">Add to Cart</button>
+          </div>
+      </div>
+  </div>
+
+  <div class="category" id="category-1">
+    <h2>Antihypertensives</h2>
+    <div class="product-list">
+        <div class="product">
+            <img src="images/e/1.jpg" alt="Enalapril">
+            <h3>Enalapril</h3>
+            <p>Price: $300</p>
+            <input type="number" class="quantity" min="1" value="1">
+            <button class="add-to-cart" data-price="300">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+          <img src="images/e/2.jpg" alt="Lisinopril">
+          <h3>Lisinopril</h3>
+          <p>Price: $315</p>
+          <input type="number" class="quantity" min="1" value="1">
+          <button class="add-to-cart" data-price="315">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/e/3.jpg" alt="Ramipril">
+          <h3>Ramipril</h3>
+          <p>Price: $335</p>
+          <input type="number" class="quantity" min="1" value="1">
+          <button class="add-to-cart" data-price="335">Add to Cart</button>
+        </div>
+        
+        <div class="product">
+          <img src="images/e/4.png" alt="Captopril">
+          <h3>Captopril</h3>
+          <p>Price: $345</p>
+          <input type="number" class="quantity" min="1" value="1">
+          <button class="add-to-cart" data-price="345">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/e/5.jpg" alt="Benazepril">
+          <h3>Benazepril</h3>
+          <p>Price: $385</p>
+          <input type="number" class="quantity" min="1" value="1">
+          <button class="add-to-cart" data-price="385">Add to Cart</button>
+        </div>
+
+        <div class="product">
+          <img src="images/e/6.jpg" alt="Losartan">
+          <h3>Losartan</h3>
+          <p>Price: $298</p>
+          <input type="number" class="quantity" min="1" value="1">
+          <button class="add-to-cart" data-price="298">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+    </section>
+
+    <aside id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: $0</p>
+    </aside>
+
+    <div>
+      <button type="button" id="saveFavourite">Add to Favourites</button>
+      <button type="button" id="applyFavourite">Apply Favourites</button>
+      <button type="button" id="buyNow">Buy Now</button>
+    </div>
+</main>
+<script src="product.js"></script>
+</body>
+</html>
